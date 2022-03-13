@@ -12,9 +12,9 @@ import pandas as pd
 
 
 nlp = spacy.load('en_core_web_lg')
-df_train = pd.read_csv('data/train.csv', header=None)
+df_train = pd.read_csv('raw_data/fulltrain.csv', header=None)
 df_train = df_train.rename(columns={0: 'Verdict', 1: 'Text'})
-df_test = pd.read_csv('data/balancedtest.csv', header=None)
+df_test = pd.read_csv('raw_data/balancedtest.csv', header=None)
 df_test = df_test.rename(columns={0: 'Verdict', 1: 'Text'})
 
 
