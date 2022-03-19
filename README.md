@@ -16,3 +16,49 @@ The dataset can be obtained in: https://drive.google.com/drive/folders/1fQ9_4Wfb
 
 Attention: The original smaller dataset has been updated!
 
+## 3. Results of Model
+
+1. Logistic Regression
+
+| Dataset | Feature Engineering | C | max_iter｜solver｜F1｜Accuracy｜Precision｜Recall｜
+|:----:| :----: | :----: |
+| Original | TF-IDF | 40 | 1000｜newton-cg｜0.749｜0.758｜0.775｜0.758｜
+| Smaller | TF-IDF | 40 |1000 ｜newton-cg｜0.7132｜0.7207｜0.7388｜0.7207｜
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
