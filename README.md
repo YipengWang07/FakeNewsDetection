@@ -20,7 +20,7 @@ This is the final project of CS4248 for Group 17.
 
 **Description**: In this project, we constructed several fake news classifiers by applying machine learning techniques on the LUN dataset and attempt to interpret their results. Our best model (Logistic regression), achieved a macro-F1 score of 0.76. 
 
-**Novelty**  (1) construction of a new CNN model with a macro-F1 score of 0.65 (2) in-depth analysis and interpretation of the logistic regression model (3)  verification of categorization based on 2 dimensions (intention of author and information quality).
+**Novelty:**  (1) construction of a new CNN model with a macro-F1 score of 0.65 (2) in-depth analysis and interpretation of the logistic regression model (3)  verification of categorization based on 2 dimensions (intention of author and information quality).
 
 **Results Summary (Best)**:
 | Method |Feature Engineering | Macro-F1|Accuracy|Precision|Recall
@@ -36,7 +36,7 @@ This is the final project of CS4248 for Group 17.
 **1. Dataset Source:**  [Download link](https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset) (dataset originally constructed by [Rashkin et al.](https://aclanthology.org/D17-1317.pdf))
 **2. Dataset Introduction:**
 
- - Sources of the dataset. GN refers to Gigawords News.
+ - Sources of the dataset. (GN refers to Gigawords News)
 
 |**Dataset**  |**Satire (#Docs)**  |**Hoax (#Docs)**|**Propaganda(#Docs)**|**Trusted (#Docs)**|
 |--|--|--|--|--|
@@ -48,7 +48,7 @@ This is the final project of CS4248 for Group 17.
 
 [(Back to top)](#table-of-contents)
 
-# Directory Structure
+# Directory_Structure
 
 [(Back to top)](#table-of-contents)
 
