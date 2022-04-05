@@ -5,9 +5,9 @@
 
 # Table of contents
 - [Introduction](#introduction)
-- [Dataset](#demo-preview)
-- [Directory Structure](#table-of-contents)
-- [Dependencies](#installation)
+- [Dataset](#dataset)
+- [Directory Structure](#directory structure)
+- [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
