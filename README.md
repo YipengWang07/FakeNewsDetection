@@ -6,7 +6,7 @@
 # Table of contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [Directory Structure](#directory structure)
+- [Directory Structure](#directory_structure)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
