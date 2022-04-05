@@ -34,6 +34,7 @@ This is the final project of CS4248 for Group 17.
 # Dataset
 
 **1. Dataset Source:**  [Download link](https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset) (dataset originally constructed by [Rashkin et al.](https://aclanthology.org/D17-1317.pdf))
+
 **2. Dataset Introduction:**
 
  - Sources of the dataset. (GN refers to Gigawords News)
