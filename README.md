@@ -1,64 +1,64 @@
-# FakeNewsDetection
+# Multi-Label Fake News Detection on LUN Dataset
 
-## 1. Paper
+<!-- Add buttons here -->
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)  ![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)  ![GitHub All Releases](https://img.shields.io/github/downloads/navendu-pottekkat/awesome-readme/total)
 
-This part contains some reference papers about this project
+# Table of contents
+- [Introduction](#introduction)
+- [Dataset](#demo-preview)
+- [Directory Structure](#table-of-contents)
+- [Dependencies](#installation)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-## 2. Data
+# Introduction
 
-Data contains two folder (1) Original dataset (2) Smaller dataset
+This is the final project of CS4248 for Group 17. 
 
-(1) Original dataset: The data is provided by the paper
+**Motivation**: The spread of fake news is a big challenge in this digital world owing to the negative influence and difficulty of identifying them. There has been effort made to solve this problem, but we note that most solutions are black box models and thus lack interpretability. 
 
-(2) Smaller dataset: Chose the original dataset randomly and 40% of original dataset are used as the smaller dataset.
+**Description**: In this project, we constructed several fake news classifiers by applying machine learning techniques on the LUN dataset and attempt to interpret their results. Our best model (Logistic regression), achieved a macro-F1 score of 0.76. 
 
-The dataset can be obtained in: https://drive.google.com/drive/folders/1fQ9_4Wfb9v0wMwYM8CVdIYnlMqrynvX5?usp=sharing
+**Novelty**  (1) construction of a new CNN model with a macro-F1 score of 0.65 (2) in-depth analysis and interpretation of the logistic regression model (3)  verification of categorization based on 2 dimensions (intention of author and information quality).
 
-Attention: The original smaller dataset has been updated!
+**Results Summary (Best)**:
+| Method |Feature Engineering | Macro-F1|Accuracy|Precision|Recall
+|--|--|--|--|--|--|
+|Logistic Regression | TF-IDF |0.7559|0.7643|0.7793|0.7643|
+|LSTM | GloVe |0.67|0.67|0.68|0.68|
+|CNN | None |0.65|0.65|0.64|0.64|
 
-## 3. Results of Model
+[(Back to top)](#table-of-contents)
 
-1. Logistic Regression
+# Dataset
 
-  |Dataset | Feature Engineering | C | max_iter|solver|F1|Accuracy|Precision|Recall|
-  |:----:| :----: | :----:|:----:| :----: | :----:|:----:|:----:|:----:|
-  | Original | TF-IDF | 40 |1000|newton-cg|0.749|0.758|0.775|0.758|
-  | Smaller | TF-IDF | 40 |1000 |newton-cg|0.7132|0.7207|0.7388|0.7207
+**1. Dataset Source:**  [Download link](https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset) (dataset originally constructed by [Rashkin et al.](https://aclanthology.org/D17-1317.pdf))
+**2. Dataset Introduction:**
 
+ - Sources of the dataset. GN refers to Gigawords News.
 
+|**Dataset**  |**Satire (#Docs)**  |**Hoax (#Docs)**|**Propaganda(#Docs)**|**Trusted (#Docs)**|
+|--|--|--|--|--|
+| Training data | The Onion(14,047) |American News (6,942)|Activist Report (17,870)|GN except “APW” and “WPB” (9,995)|
+| Test data | The Borowitz Report Clickhole (750)|DC Gazette (750)|The Natural News (750)|GN only “APW” and “WPB” (750)|
 
+ - Size: 48K news articles for training, 3K for testing.
+ - Labels: 1-"Satire", 2-"Hoax", 3-"Propaganda", 4-"Reliable News"
 
+[(Back to top)](#table-of-contents)
 
+# Directory Structure
 
+[(Back to top)](#table-of-contents)
 
+# Installation
+[(Back to top)](#table-of-contents)
 
+# Dependencies
+[(Back to top)](#table-of-contents)
+# Usage
+[(Back to top)](#table-of-contents)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# License
+[(Back to top)](#table-of-contents)
