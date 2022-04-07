@@ -106,6 +106,20 @@ Run the following code directly through `Colab` , `Kaggle` or `Jupyter notebook`
 Run the following code: (1) Edit the `data path` (2) Run them directly through `python3 cnn.py / mlp.py`
  - [cnn.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/cnn.py)
  - [mlp.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/mlp.py)
+Certain arguments can be passed to the models
+```
+mlp.py [OPTIONS]
+--preprocess - performs the preprocessing step
+--no-dropout - run without dropout layers
+--no-pca - run without performing PCA on data
+--noise - introduce gaussian noise to dataset
+--undersample - undersample the dataset when training
+
+cnn.py [OPTIONS]
+--max-len n maximum length of input from each instance (default 1000)
+--chuunked - if the input should be chunked (default False)
+--embed-size n - sets the output of embedding layer to n (default 100)
+```
 
 [(Back to top)](#table-of-contents)
 
