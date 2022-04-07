@@ -273,8 +273,8 @@ model.compile(loss='categorical_crossentropy', optimizer=Adadelta(), metrics=['a
 model.fit(
     X_all,
     y_all_encoded,
-    batch_size=128,
-    epochs=64,
+    batch_size=64,
+    epochs=512,
     verbose=2,
     validation_data=(X_test, y_test_encoded),
     validation_freq=1,
