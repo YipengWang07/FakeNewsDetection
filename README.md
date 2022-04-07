@@ -88,6 +88,16 @@ FakeNewsDetection
 
 # Dependencies
 
+For  [cnn.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/cnn.py) and [mlp.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/mlp.py), the following packages should be installed: 
+```
+numpy 1.22.1
+pandas 1.4.1
+tensorflow 2.8.0
+nltk 3.6.7
+spacy 3.2.2
+sklearn 1.0.2
+bs4 4.10.0
+```
 
 [(Back to top)](#table-of-contents)
 
