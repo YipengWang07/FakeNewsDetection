@@ -10,7 +10,6 @@
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 # Introduction
 
@@ -49,11 +48,10 @@ This is the final project of CS4248 for Group 17.
 
 [(Back to top)](#table-of-contents)
 
-# Directory_Structure
-
 ```
 FakeNewsDetection
-├─ BERT.ipynb                          
+├─ .DS_Store
+├─ BERT.ipynb
 ├─ LIWC
 │  ├─ README.md
 │  ├─ __pycache__
@@ -64,6 +62,7 @@ FakeNewsDetection
 ├─ LSTM.ipynb
 ├─ Logistic_Regression.ipynb
 ├─ README.md
+├─ Random Forest.ipynb
 ├─ XGBoost.ipynb
 ├─ cnn.py
 ├─ extract_useful_n_grams.ipynb
@@ -72,7 +71,7 @@ FakeNewsDetection
 │  ├─ 1910.12203.pdf
 │  ├─ 2021.acl-long.62.pdf
 │  └─ D17-1317.pdf
-└─ validate_2d_representation_random_forest.ipynb
+└─ validate_2d_representation_LR.ipynb
 
 ```
 [(Back to top)](#table-of-contents)
@@ -80,10 +79,30 @@ FakeNewsDetection
 # Installation
 [(Back to top)](#table-of-contents)
 
+```git init```
+
+```git clone https://github.com/YipengWang07/FakeNewsDetection.git```
+
 # Dependencies
-[(Back to top)](#table-of-contents)
-# Usage
+
+
 [(Back to top)](#table-of-contents)
 
-# License
+
+# Usage
+
+Run the following code directly through `Colab` , `Kaggle` or `Jupyter notebook`
+ - [BERT.ipynb](https://github.com/YipengWang07/FakeNewsDetection/blob/main/BERT.ipynb)
+ - [LSTM.ipynb](https://github.com/YipengWang07/FakeNewsDetection/blob/main/LSTM.ipynb)
+ - [Logistic_Regression.ipynb](https://github.com/YipengWang07/FakeNewsDetection/blob/main/Logistic_Regression.ipynb)
+ - [Random Forest.ipynb](https://github.com/YipengWang07/FakeNewsDetection/blob/main/Random%20Forest.ipynb)
+ - [XGBoost.ipynb](https://github.com/YipengWang07/FakeNewsDetection/blob/main/XGBoost.ipynb)
+ - [extract_useful_n_grams.ipynb](https://github.com/YipengWang07/FakeNewsDetection/blob/main/extract_useful_n_grams.ipynb)
+ - [validate_2d_representation_LR.ipynb](https://github.com/YipengWang07/FakeNewsDetection/blob/main/validate_2d_representation_LR.ipynb)
+
+Run the following code: (1) Edit the `data path` (2) Run them directly through `python3 cnn.py / mlp.py`
+ - [cnn.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/cnn.py)
+ - [mlp.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/mlp.py)
+
 [(Back to top)](#table-of-contents)
+
