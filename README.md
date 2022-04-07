@@ -79,11 +79,12 @@ FakeNewsDetection
 [(Back to top)](#table-of-contents)
 
 # Installation
-[(Back to top)](#table-of-contents)
 
 ```git init```
 
 ```git clone https://github.com/YipengWang07/FakeNewsDetection.git```
+
+[(Back to top)](#table-of-contents)
 
 # Dependencies
 
