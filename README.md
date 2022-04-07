@@ -106,6 +106,7 @@ Run the following code directly through `Colab` , `Kaggle` or `Jupyter notebook`
 Run the following code: (1) Edit the `data path` (2) Run them directly through `python3 cnn.py / mlp.py`
  - [cnn.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/cnn.py)
  - [mlp.py](https://github.com/YipengWang07/FakeNewsDetection/blob/main/mlp.py)
+
 Certain arguments can be passed to the models
 ```
 mlp.py [OPTIONS]
