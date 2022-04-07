@@ -48,6 +48,8 @@ This is the final project of CS4248 for Group 17.
 
 [(Back to top)](#table-of-contents)
 
+# Directory_Structure
+
 ```
 FakeNewsDetection
 ├─ .DS_Store
