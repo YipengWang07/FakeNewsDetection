@@ -226,7 +226,7 @@ model.summary()
 model.fit(
     X_train,
     y_train_encoded,
-    batch_size=128,
+    batch_size=64,
     epochs=512,
     verbose=2,
     callbacks=[MyCustomCallback((X_val, X_test), (y_val, y_test))]
