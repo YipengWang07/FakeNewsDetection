@@ -51,6 +51,30 @@ This is the final project of CS4248 for Group 17.
 
 # Directory_Structure
 
+```
+FakeNewsDetection
+├─ BERT.ipynb                          
+├─ LIWC
+│  ├─ README.md
+│  ├─ __pycache__
+│  │  └─ util.cpython-310.pyc
+│  ├─ features.py
+│  ├─ to_structure.py
+│  └─ util.py
+├─ LSTM.ipynb
+├─ Logistic_Regression.ipynb
+├─ README.md
+├─ XGBoost.ipynb
+├─ cnn.py
+├─ extract_useful_n_grams.ipynb
+├─ mlp.py
+├─ paper
+│  ├─ 1910.12203.pdf
+│  ├─ 2021.acl-long.62.pdf
+│  └─ D17-1317.pdf
+└─ validate_2d_representation_random_forest.ipynb
+
+```
 [(Back to top)](#table-of-contents)
 
 # Installation
